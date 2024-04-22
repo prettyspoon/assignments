@@ -1,0 +1,42 @@
+body {
+    background-color: #EFDCC7; 
+    font-family:serif;
+}
+
+.fixedHeader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c29d72;
+    color: #fff;
+    padding: 1px;
+    text-align: right;
+  }
+
+  .links{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.grid-item img {
+    width: 265px;
+    height: 265px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center; 
+    color: #c29d72;
+    font-size: 60px; 
+    padding: 0px;
+}
