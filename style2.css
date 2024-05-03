@@ -9,6 +9,9 @@
 
 body {
     background-color: rgb(250, 241, 189);
+    margin-left: 10px;
+    margin-left: 20px;
+    width: calc(100% - 420px);
 }
 
 
@@ -18,8 +21,6 @@ header {
     align-items: center;
 
     margin-top: 18px;
-    margin-left: 10px;
-    margin-right: 10px;
 
     font-family: monospace;
 }
