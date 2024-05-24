@@ -11,16 +11,17 @@ body {
     background-color: rgb(250, 241, 189);
     margin-left: 10px;
     margin-left: 20px;
-    width: calc(100% - 420px);
+    width: calc(100% - 450px);
 }
-
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin-top: 18px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     font-family: monospace;
 }
@@ -37,7 +38,12 @@ a:hover {
     color: purple;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
-    margin-top: 50px; /* Optional: Add some space between the header and the h1 */
+}
+
+p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
